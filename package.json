@@ -1,0 +1,20 @@
+{
+  "name": "lib-stream-http",
+  "version": "0.0.0",
+  "description": "> create a duplex stream representing the http connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js && tap test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lib-stream-solidify": "0.0.0",
+    "lib-stream-liquify": "0.0.0",
+    "tap": "^0.4.8",
+    "jshint": "^2.4.4"
+  },
+  "dependencies": {
+    "lib-stream-future": "0.0.1"
+  }
+}
