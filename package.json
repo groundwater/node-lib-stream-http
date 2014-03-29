@@ -1,7 +1,7 @@
 {
   "name": "lib-stream-http",
   "version": "0.0.0",
-  "description": "> create a duplex stream representing the http connection",
+  "description": "create a duplex stream representing the http connection",
   "main": "index.js",
   "scripts": {
     "test": "jshint index.js && tap test"
@@ -16,5 +16,16 @@
   },
   "dependencies": {
     "lib-stream-future": "0.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/groundwater/node-lib-stream-http.git"
+  },
+  "bugs": {
+    "url": "https://github.com/groundwater/node-lib-stream-http/issues"
+  },
+  "homepage": "https://github.com/groundwater/node-lib-stream-http"
 }
