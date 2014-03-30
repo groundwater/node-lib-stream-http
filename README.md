@@ -24,10 +24,10 @@ var duplex = requestor.newDuplex(opts);
 // generate error on http status >= 400
 // you should still consume the res
 duplex.on('error', function (err, res) {
-  console.error('error', err);
-  res.pipe(process.stderr);
+  // cleanup on error
 });
 
+// the outStream only gets data if the request succeeds
 inStream.pipe(duplex).pipe(outStream);
 ```
 

@@ -18,6 +18,7 @@ Requestor.prototype.newDuplex = function (opts) {
 
       duplex.emit('error', error, res);
 
+      // abort setting the readable stream if there is an error
       return;
     }
 

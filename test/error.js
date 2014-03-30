@@ -35,8 +35,12 @@ test("error events should not pipe", function (t) {
   });
 
   duplex.on('data', function (data) {
-    t.ok(false); // i am not okay with this
+    t.ok(false, "data events should not fire");
   });
+
+  duplex.on('end', function () {
+    t.ok(false, "end event should not fire");
+  })
 
   duplex.end();
 });
