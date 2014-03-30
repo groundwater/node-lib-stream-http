@@ -15,7 +15,7 @@
     "jshint": "^2.4.4"
   },
   "dependencies": {
-    "lib-stream-future": "0.0.1"
+    "lib-stream-future": "0.0.2"
   },
   "directories": {
     "test": "test"
