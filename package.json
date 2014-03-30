@@ -1,6 +1,6 @@
 {
   "name": "lib-stream-http",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "create a duplex stream representing the http connection",
   "main": "index.js",
   "scripts": {
